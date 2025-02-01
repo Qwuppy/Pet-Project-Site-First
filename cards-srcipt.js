@@ -12,15 +12,15 @@ const BikingButton = document.getElementById("cards-button-biking");
 const TrackingButton = document.getElementById("cards-button-tracking");
 
 CampingButton.onclick = function () {
-    window.open("https://www.youtube.com/watch?v=ca_JnZX1Yfs&ab_channel=Guitar-Science-%D0%A3%D1%80%D0%BE%D0%BA%D0%B8%D1%8D%D0%BB%D0%B5%D0%BA%D1%82%D1%80%D0%BE%D0%B3%D0%B8%D1%82%D0%B0%D1%80%D1%8B");
+    window.location.href = "/link.html";
 }
 
 BikingButton.onclick = function () {
-    window.open("https://www.velostrana.ru/gornye-velosipedy/");
+    window.location.href = "/link.html";
 }
 
 TrackingButton.onclick = function () {
-    window.open("https://www.google.com/search?q=mountain+tracking+jpg&sca_esv=0fd6655462c7c58e&udm=2&biw=1920&bih=919&sxsrf=AHTn8zrKSmRBvnCtf-gm70og2xZrHs549A%3A1738147821963&ei=7QeaZ86_OvaE1fIP-bfguQ8&ved=0ahUKEwiO6vqb4ZqLAxV2QlUIHfkbOPcQ4dUDCBE&uact=5&oq=mountain+tracking+jpg&gs_lp=EgNpbWciFW1vdW50YWluIHRyYWNraW5nIGpwZ0jUElDvBViEEXABeACQAQCYATigAbMCqgEBNrgBA8gBAPgBAZgCBKACpgHCAgQQIxgnwgIJEAAYgAQYExgKwgIIEAAYExgKGB7CAggQABgTGAgYHsICChAAGBMYCBgKGB6YAwCIBgGSBwE0oAffFQ&sclient=img&ih=919&iw=1920#vhid=dLXhGFGPI6PmgM&vssid=mosaic");
+    window.location.href = "/link.html";
 }
 
 const prevButton = document.getElementById('leftButtonArrow');
